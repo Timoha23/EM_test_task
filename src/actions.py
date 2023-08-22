@@ -66,7 +66,7 @@ def show_entries(pb: PhoneBook) -> None:
     print("Записей нет.")
 
 
-def find_entry(pb: PhoneBook) -> None | Exception:
+def find_entry(pb: PhoneBook) -> None:
     """
     Обработчик консольной команды "find_entry"
 
@@ -100,7 +100,7 @@ def find_entry(pb: PhoneBook) -> None | Exception:
         return ex
 
 
-def edit_entry(pb: PhoneBook) -> None | Exception:
+def edit_entry(pb: PhoneBook) -> None:
     """
     Обработчик консольной команды "edit_entry"
 
