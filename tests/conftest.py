@@ -19,7 +19,7 @@ def tmp_file():
 
 @pytest.fixture(scope="session")
 def phonebook():
-    return PhoneBook(TEST_PHONEBOOK_PATH)
+    return PhoneBook(path=TEST_PHONEBOOK_PATH)
 
 
 def _add_entry(data: dict) -> Entry:
